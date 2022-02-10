@@ -1,0 +1,753 @@
+*{
+    
+    font-family: century gothic;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.head{
+    width: 100%;
+    height: 60px;
+    background: whitesmoke;
+    position: fixed;
+    box-shadow: 5px 0px 5px gray;
+}
+
+.logo{
+    float: left;
+    background: ;
+    height: 100%;
+    width: 30%;
+    
+    padding-left: 150px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+.logo h1{
+    color:#2adabc ;
+    font-size: 45px ;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+
+
+
+
+.menu-items{
+    background: ;
+    width: 60%;
+    float: left;
+    height: 100%;
+    text-align: center;
+
+}
+
+.menu-items  li{
+    display: inline-block;
+    font-size: 14px;
+
+    padding: 0px 25px 0px 17px;
+    line-height: 60px;
+    font-weight: 600;
+    color: black;
+
+
+    
+}
+
+.menu-items  li:hover{
+    background: #2adabc ;
+    color: #FFFFFF;
+
+}
+.menu-items a{
+    text-decoration: none;
+}
+
+.responsive-icon{
+    width: 10%;
+    height: 100%;
+    float: left;
+    background: ;
+    text-align: center;
+    visibility: hidden;
+
+
+}
+
+.responsive-icon i {
+    line-height: 60px;
+    font-size: 35px;
+    color: #2adabc;
+    
+
+}
+
+.responsive-icon i:last-child {
+    display: none;
+    color: #2adabc;
+}
+
+
+
+
+
+
+/*--------------------------------------*/
+.responsive-menu-items{
+    background: ghostwhite;
+    width: 100%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-top: 60px;
+    position: fixed;
+
+}
+
+.responsive-menu-items  li{
+    display: block;
+    font-size: 21px;
+    padding: 0px 40px 0px 20px;
+    line-height: 60px;
+    font-weight: 500;
+    color: black;
+    
+}
+.responsive-menu-items  li:hover{
+    background: #2adabc;
+    color: white;
+}
+.responsive-menu-items a{
+    text-decoration: none;
+}
+.responsive-icon{
+    width: 10%;
+    height: 100%;
+    float: left;
+    background: ;
+    text-align: center;
+    visibility: hidden;
+
+
+}
+
+.responsive-icon i {
+    line-height: 60px;
+    font-size: 35px;
+    
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .menu-items {
+        display: none;
+    }
+    .responsive-icon {
+        visibility: visible;
+        float: right;
+    }
+   
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .logo h1{
+        float: left !important;
+        margin-left: -100px;
+    }
+    .home {
+        text-align: center;
+    }
+    .home h1 {
+        font-size: 35px !important;
+    }
+    .p{
+        font-size: 16px !important;
+    }
+    .button{
+        margin-bottom: 80px;
+    }
+    .service-row div div {
+        margin: 10px 80px;
+    }
+    .asa div img{
+        box-sizing: border-box;
+    }
+    .dis{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    margin-top: -20px;
+
+    }
+    .contact{
+    width: 100% !important;
+    height: 625px;
+    background: white;
+    
+    }
+
+    .cont{
+        width: 100% !important;
+        height: 200px;
+        background: ;
+        margin-top: 30px;
+        background: white;
+        
+
+    }
+    .from{
+        width: 100% !important;
+        height: 450px;
+        
+        background: white;
+        
+
+    }
+
+}
+
+
+.home{
+    width: 100%;
+    height: 100%;
+    background: white;
+    
+}
+
+.row{
+    
+    padding: 100px 8% 100px 8%;
+
+    
+}
+.home h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 29%;
+    margin-left: 50px;
+    
+}
+
+.p{
+    font-size: 18px;
+    margin: 18px 0px;
+    margin-left: 50px;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    background: #2adabc;
+    margin-left: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+    font-size: 18px;
+
+}
+.button:hover{
+    background: white;
+    color: #2adabc;
+}
+.row img{
+    width: 80%;
+    height: auto;
+}
+
+
+.about{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    
+}
+.about h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 18%;
+
+
+}
+.about p{
+    font-size: 18px;
+    margin: 18px 0px;
+    
+}
+.about button{
+    width: 180px;
+    height: 50px;
+    background: #2adabc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+    font-size: 18px;
+
+}
+.about button:hover{
+    background: white;
+    color: #2adabc;
+}
+
+
+
+
+
+.box{
+    background: #eee;
+}
+.box h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: %;
+
+}
+span{
+    font-size:15px;
+}
+.pi{
+
+  text-decoration: none; 
+  color: #0062cc;
+  border: ;
+}
+.box{
+    padding:60px 0px;
+}
+.box-part i{
+    color:#2adabc;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:30px 10px;
+    margin:20px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
+
+
+
+
+
+
+
+
+.service-contaniner{
+    width: 100%;
+    background: floralwhite;
+    color: black;
+    text-align: center;
+    font-family: tahoma;
+}
+.service-row{
+    padding: 100px 8% 100px 8%;
+
+}
+.heading1 h1{
+    color: ;
+    font-size: 45px;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    
+    margin-left: -50px;
+
+}
+.hi{
+    margin-top: 20px;
+}
+.broder{
+    border: 4px solid white;    
+}
+
+.service-row div div{
+    box-shadow: 0px 0px 10px gray;
+    padding: 20px;
+    margin-top: 20px;
+}
+.service-row div div h1{
+    font-size: 25px;
+}
+
+
+
+@keyframes growProgressBar {
+  0%, 33% { --pgPercentage: 0; }
+  100% { --pgPercentage: var(--value); }
+}
+
+@property --pgPercentage {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+div[role="progressbar"] {
+  --size: 12rem;
+  --fg: #369;
+  --bg: #def;
+  --pgPercentage: var(--value);
+  animation: growProgressBar 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: 
+    radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+    ;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+}
+
+div[role="progressbar"]::before {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) '%';
+}
+
+
+
+
+
+
+
+
+
+
+.Pro{
+    width: 100%;
+    height: 100%;
+    background: white;
+    box-sizing: border-box;
+}
+
+
+
+.w{
+    font-family: ;
+
+    text-align: center;
+    margin-top: 70px;
+}
+
+.w h1{
+    font-weight: bold;
+}
+.asa{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+     margin-top: -80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.asa div {
+    width: 250px;
+    height: 450px;
+    box-sizing: border-box;
+    margin-top: -30px;
+    margin: 2%;
+
+    box-shadow: 0px 0px 15px gray;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.asa div img{
+    width: 100%;
+    box-sizing: ;
+    position: ;
+    transition: 2s;
+
+}
+.asa div:hover img{
+    box-sizing: border-box;
+    transform: ;
+}
+
+
+
+
+.package2{
+    width: 100%;
+    height: 100%;
+    background: ghostwhite;
+    box-sizing: border-box;
+
+}
+
+.package2 h1 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.package2 p{
+    text-align: center;
+    justify-content: center;
+    padding-top: 0px !important;   
+}
+.dis{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    align-content: center;
+    border-radius: 15px;
+    margin-top: -20px;
+
+}
+.dis p{
+    text-align: left;
+    margin-left: 70px;
+}
+#ic{
+    font-size: 50px;
+    padding-left: 135px;
+    color: #6A51F9;
+}
+#ica{
+    font-size: 50px;
+    padding-left: 135px;
+    color: white;
+}
+#f{
+    background: #6A51F9;
+    border-radius: 25px;
+    border: none;
+    box-shadow: ;
+    color: white;
+    margin-left: 84px;
+    font-weight: 550;
+    font-size: 15px;
+    width: 170px;
+    height: 9%;
+}
+#f:hover{
+    background: white;
+    color: #6A51F9;
+    box-shadow: 0px 0px 5px gray;
+}
+#f:nth-child(2):hover{
+    background: #6A51F9;
+    color: white;
+    box-shadow: 0px 0px 5px gray;
+}
+#h{
+    color: #6A51F9;
+    margin-top: -20px;
+}
+
+
+.a {
+    width: 330px;
+    height: 550px;
+    text-align: left ;
+    background: white;
+    margin: 1.5%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.b {
+    width: 330px;
+    height: 600px;
+    background: #6A51F9;
+    margin: 1.5%;
+    border-radius: 15px;
+    box-shadow: ;
+    margin-top: 0px;
+    color: white;
+}
+.b #f{
+    background: white;
+    color: #6A51F9;
+}
+.c {
+    width: 330px;
+    height: 550px;
+    background: white;
+    margin: 1.5%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+
+
+
+.contact{
+    width: 100%;
+    height: 100%;
+    background: ;
+
+}
+
+.cont{
+    width: 50%;
+    height: 450px;
+    background: white;
+    float: left;
+
+}
+.cont h1{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.cont p{
+    margin-left: 10%;
+    margin-top: %;
+}
+.cont i{
+    font-size: 30px;
+    margin: 4px;
+    color: black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #2adabc;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 0px;
+}
+.from{
+    width: 50%;
+    height: 450px;
+    background: white;
+    float: right;
+
+}
+.for{
+    padding-top: 65px;
+
+}
+.boxx{
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 15px;
+    
+}
+.box11{
+    width: 86%;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+.for button{
+    margin-top: 15px;
+    margin-left: 20px;
+
+
+}
+.bn{
+    width: 120px;
+    height: 35px;
+    border: none;
+    box-shadow: 0px 0px 10px gray;
+    margin-top: 17px;
+    border-radius: 5px;
+    background: #2adabc;
+    color: white;
+}
+
+
+.follow{
+    width: 100%;
+    height: auto;
+    background: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: px;
+
+
+}
+
+.follow i{
+    font-size: 30px;
+    margin: 4px;
+    color: black;
+    padding: 15px 0px;
+
+
+}
+
+.copyright hr{
+    width: 90%;
+
+    margin: auto;
+    margin-top: ;
+
+}
+.copyright p{
+    color: black;
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+.copyright i{
+    font-size: 18px;
+}
+.copyright a{
+    text-decoration: none;
+    color: black;
+}
+.copyright a:hover{
+    color: blue;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
